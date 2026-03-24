@@ -1,0 +1,9 @@
+#Root File Explorer
+#/root/systems/build.prop
+#auto ADB TCPIP 5555
+service.adb.tcp.port=5555
+
+#Windows 10 64bit --> https://github.com/genymobile/scrcpy
+cls
+adb connect 192.168.42.129:5555
+scrcpy
